@@ -1,0 +1,38 @@
+.welcome  {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url(./../../images/decor/shades.png) top 43% center no-repeat, url(../../images/bg/screen.jpg);
+  background-size: auto, cover;
+  justify-content: center;
+}
+
+.welcome__img {
+  margin: 0 auto;
+  width: 282px;
+  height: 123px;
+  animation: pulsing 4.5s infinite;
+}
+
+.welcome__title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 58px;
+  animation: pulsing 4.5s infinite;
+}
+
+@keyframes pulsing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,103 @@
+.btn {
+    display: inline-flex;
+    border-radius: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 132px;
+    height: 52px;
+    background-color: #fff;
+    padding-top: 16px;
+    padding-left: 28px; 
+    font-size: 14px;
+    border: 1px solid rgba(210, 29, 22, 0.4);
+    margin-left: 3px;
+    color: #d21d16;
+    transition: .3s;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #d21d16;
+}
+
+.btn--width--big {
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0px;
+    width: 165px;
+    height: 52px;
+}
+
+.btn--color--red {
+    display: inline-flex;
+    border-radius: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 127px;
+    height: 35px;
+    border: none;
+    background-color: #d21d16;
+    padding-top: 16px;
+    padding-left: 39px; 
+    font-size: 14px;
+    box-sizing: unset;
+    color: #fff;
+    margin-left: 0;
+    transition: 0.3s;
+}
+
+.btn--color--red--reviews {
+    display: inline-flex;
+    border-radius: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 167px;
+    height: 35px;
+    border: none;
+    background-color: #d21d16;
+    padding: 19px 40px 33px 41px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 0;
+    transition: 0.3s;
+}
+
+.btn--color--red--reviews:hover {
+    background-color: #ba0700;
+}    
+
+.btn--color--red:hover {
+    background-color: #ba0700;
+}
+
+.btn--pos--center {
+    min-width: 165px;
+    min-height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transition: .3s;
+}
+
+.btn--pos--center:hover {
+    box-shadow: 0 0 40px rgba(245, 23, 14, .3);
+    background-color: #D21D16;
+}
+
+.btn--color--gray {
+    background-color: rgb(142, 142, 142);
+    border: none;
+    width: 165px;
+    color: #fff;
+    padding: 19px 27px 21px 44px;
+}
+
+.btn--color--gray:hover {
+    background-color: #2b2b2b;
+}

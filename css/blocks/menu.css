@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: top;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.menu__list {
+    display: inline-flex;
+}
+
+.menu__item {
+    vertical-align: middle;
+    margin-right: 55px;
+}
+
+.menu__item_active .menu__link{
+    color: #d21d16;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.menu__link:hover {
+    color: #d21d16;
+}

@@ -1,0 +1,166 @@
+.tours {
+    margin-bottom: 140px;
+}
+
+.container__title {
+    display: inline-flex;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    margin-left: -2px;
+}
+
+.tours .container .container__title:after {
+    content: "";
+    align-items: flex-end;
+    align-self: center;
+    width: 21px;
+    height: 28px;
+    margin-left: 9px;
+    background: url(./../../images/icons/flame.png) bottom center no-repeat;
+}
+
+.tours__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__item {
+    min-height: 440px;
+    background: #fff;
+    border-radius: 6px;
+    width: calc(100% / 3 - 21px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tours__item:last-child {
+    margin-right: 0;
+}
+
+.tours__header {
+    width: 360px;
+    height: 141px;
+    overflow: hidden;
+    float: left;
+}
+
+[alt*="thailand image"] {
+    width: 101%;
+    height: 171%;
+    margin: -39px -156px -40px -2px;
+}
+
+[alt*="bali image"] {
+    width: 102%;
+    height: 180%;
+    margin: -38px -157px -40px -1px;
+}
+
+[alt*="indonesia image"] {
+    margin:-56px -156px -40px -1px;
+}
+
+.tours__content {
+    padding: 23px 21px 29px 21px;
+    color: #333333;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tours__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.tours__offer {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours__btn-wrapper {
+    display: flex;
+    justify-content: start;
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+
+.tours__offer-cell {
+    display: flex;
+    align-items: center;
+    margin-right: 17px;
+    width: 159px;
+    margin-left: 6px;
+}
+
+.tours__offer-cell:last-child {
+    margin-right: 11px;
+}
+
+.tours__period-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.tours__period-icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 26px;
+    height: 26px;
+    background: url('./../../images/icons/sprites.png') -10px -10px;
+}
+
+.tours__period {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    vertical-align: super;
+    letter-spacing: 0.5px;
+    margin-right: 2px;
+}
+
+.tours__breakfast-icon {
+    width: 36px;
+    height: 26px;
+    margin-right: 7px;
+    margin-left: -8px;
+    position: relative;
+}
+
+.tours__breakfast-icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 26px;
+    background: url('./../../images/icons/sprites.png') -56px -56px;
+}
+
+.tours__breakfast {
+    margin-left: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    vertical-align: super;
+}
+
+.tours__desc {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}

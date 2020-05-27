@@ -1,0 +1,25 @@
+.inner-section {
+  background-color: #fff;
+  min-height: 534px;
+}
+
+.inner-section_bg_grey {
+  background-color: #f4f5f5;
+}
+
+.inner-section__title {
+  color: #202123;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.inner-section__title-service {
+  margin-bottom: 63px;
+  margin-top: 83px;
+}
+
+.inner-section__title-reviews {
+  margin-bottom: 44px;
+  margin-top: 73px;
+  margin-left: -4px;
+}

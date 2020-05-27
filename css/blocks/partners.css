@@ -1,0 +1,124 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -46px;
+  align-items: center;
+}
+
+.partners__img {
+  display: block;
+}
+
+.partners__item {
+  margin-left: 46px;
+  margin-bottom: 29px;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+
+.partners__icon {
+  width: 250px;
+  height: 100px;
+  position: relative;
+}
+
+.partners__icon-pobeda::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 249px;
+  height: 39px;
+  background: url(./../../images/icons/sprites.png) -1175px -576px;
+}
+
+.partners__icon-s7::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 210px;
+  height: 63px;
+  background: url(./../../images/icons/sprites.png) -336px -317px;
+}
+
+.partners__icon-lets-fly::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 266px;
+  height: 67px;
+  background: url(./../../images/icons/sprites.png) -1423px -639px;
+}
+
+.partners__icon-lufthansa::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 255px;
+  height: 42px;
+  background: url(./../../images/icons/sprites.png) -902px -515px;
+}
+
+.partners__icon-airbaltic::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 248px;
+  height: 43px;
+  background: url(./../../images/icons/sprites.png) -726px -455px;
+}
+
+.partners__icon-pegasus::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 286px;
+  height: 40px;
+  background: url(./../../images/icons/sprites.png) -527px -393px;
+}
+
+.partners__icon-ural::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 375px;
+  height: 31px;
+  background: url(./../../images/icons/sprites.png) -1933px -779px;
+}
+
+.partners__icon-pegas::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 252px;
+  height: 56px;
+  background: url('./../../images/icons/sprites.png') -1663px -721px;
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
